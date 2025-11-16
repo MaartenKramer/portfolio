@@ -9,6 +9,7 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	background-color: whitesmoke;
 }
 
 a {
@@ -49,7 +50,7 @@ p {
 }
 
 .section-title span {
-	color: crimson;
+	color: mediumseagreen;
 }
 
 .cta {
@@ -57,7 +58,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid crimson;
+	border: 2px solid mediumseagreen;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -68,7 +69,7 @@ p {
 
 .cta:hover {
 	color: white;
-	background-color: crimson;
+	background-color: mediumseagreen;
 }
 
 .brand h1 {
@@ -77,7 +78,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: crimson;
+	color: mediumseagreen;
 }
 
 #header {
@@ -91,7 +92,7 @@ p {
 
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-image: linear-gradient(60deg, #32433e 0%, #486350 100%);
 	transition: 0.3s ease background-color;
 }
 
@@ -156,7 +157,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: mediummediumseagreen;
 }
 
 #header .hamburger {
@@ -285,7 +286,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	background-color: mediumseagreen;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -346,7 +347,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #32433e 0%, #486350 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -368,6 +369,7 @@ p {
 	color: white;
 	text-align: left;
 }
+
 
 #projects .projects {
 	flex-direction: column;
@@ -406,7 +408,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #32433e 0%, #486350 100%);
 	color: white;
 }
 
@@ -425,10 +427,15 @@ p {
 	color: white;
 }
 
+#projects .project-info p.sec {
+	color: rgb(222, 225, 223);
+	font-size: 1.2rem;
+}
+
 #projects a {
 	text-decoration: none;
 	font-weight: bold;
-	color: crimson;
+	color: mediumseagreen;
 }
 
 #projects .project-img {
@@ -495,7 +502,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid mediumseagreen;
 	z-index: -1;
 }
 
@@ -552,7 +559,7 @@ p {
 }
 
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #32433e 0%, #486350 100%);
 }
 
 #footer .footer {
@@ -627,7 +634,7 @@ p {
 
 @keyframes text_reveal_name {
 	100% {
-		color: crimson;
+		color: mediumseagreen;
 		font-weight: 500;
 	}
 }
@@ -689,7 +696,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid mediumseagreen;
 	}
 
 	#about .col-right {
